@@ -1,0 +1,26 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "Given a user's input text related to financial services, identify the underlying intent from our predefined set of 77 support intents, taking into account the nuances and complexities of customer inquiries, particularly those that may indicate frustration or urgency.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "one customer message"
+      },
+      {
+        "prefix": "Intent:",
+        "description": "${intent}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

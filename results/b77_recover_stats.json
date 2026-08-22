@@ -1,0 +1,7 @@
+{
+  "frozen_optimized_on_synth": 0.3292,
+  "reoptimized_on_synth": 0.339,
+  "recovery_delta": 0.0098,
+  "reoptimization_wallclock_s": 367.6,
+  "reoptimization_lm_calls": 665
+}

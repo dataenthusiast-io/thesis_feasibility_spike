@@ -1,0 +1,7 @@
+{
+  "frozen_s2_on_test_n2": 0.9701,
+  "reoptimized_on_test_n2": 0.9603,
+  "recovery_delta": -0.0098,
+  "reoptimization_wallclock_s": 136.2,
+  "reoptimization_lm_calls": 683
+}

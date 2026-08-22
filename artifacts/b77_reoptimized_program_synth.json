@@ -1,0 +1,26 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "Classify the given customer support message into one of the predefined 77 intents related to banking and account management, specifically handling inquiries about account top-ups, payment failures, and other financial services-related issues.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "one customer message"
+      },
+      {
+        "prefix": "Intent:",
+        "description": "${intent}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

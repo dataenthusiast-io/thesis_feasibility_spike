@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "clean_3b",
+    "model": "qwen2.5:3b",
+    "n": 308,
+    "macro_f1": 0.5175,
+    "accuracy": 0.5357,
+    "validity_after_retry": 0.9383,
+    "lm_calls": 327,
+    "wallclock_s": 71.7
+  },
+  {
+    "condition": "clean_1b",
+    "model": "llama3.2:1b",
+    "n": 308,
+    "macro_f1": 0.267,
+    "accuracy": 0.2727,
+    "validity_after_retry": 0.6623,
+    "lm_calls": 412,
+    "wallclock_s": 78.5
+  }
+]

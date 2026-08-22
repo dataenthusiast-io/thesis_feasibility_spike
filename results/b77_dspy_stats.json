@@ -1,0 +1,9 @@
+{
+  "baseline_macro_f1": 0.5035,
+  "baseline_validity": 0.9773,
+  "optimized_macro_f1": 0.5035,
+  "optimized_validity": 0.9773,
+  "lift": 0.0,
+  "optimization_wallclock_s": 286.6,
+  "optimization_lm_calls": 708
+}

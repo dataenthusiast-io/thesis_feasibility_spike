@@ -1,0 +1,300 @@
+{"text": "Hi. I would like to meet my sister at Washintgon, can you please reservef light ticket from JFK to DCA?", "intent": "book"}
+{"text": "Hello. I am Ronald Thomas. i would like to boook a flight ticket from LAS to MSP. Could you please help me out?", "intent": "book"}
+{"text": "hello ashley adams hree i need to attend a meeting so please help me in hooking the ticket from wwr to jfk", "intent": "book"}
+{"text": "Helo,. I am Amy Hall, due to an emergency I want to cancel my recent reservation.", "intent": "cancel"}
+{"text": "hello raymond marrtinez hear can you please reserve me a flight ticket from philadelphia pa phl to orlando fl mco", "intent": "book"}
+{"text": "hi i am margaert miller i am unable two travel at this moment due to health issues so can you help me for cancelling my recent reservation", "intent": "cancel"}
+{"text": "hello usually i prefer a connecting flight but unfortunately my friend has already rreserved my icket with a direct flight so i want to change it", "intent": "change"}
+{"text": "Hello. Can you pelase help me in reserving a flight ticket to AUS from DCA?", "intent": "book"}
+{"text": "hi can you pplease cancel my recent reservation as my planned trip has been cancelled", "intent": "cancel"}
+{"text": "hello owing to an emergency i want to change my reseevation can yoi please help", "intent": "change"}
+{"text": "hello i am nancy nelson i just want to change my existing reservation due to sudden demse of my grand mothdr can you p", "intent": "change"}
+{"text": "Hello. Can you please help me with flight ticket booking from OAK to SFO to atten", "intent": "book"}
+{"text": "hello i am angela moore cany ou render ms in doing some changes in my existin", "intent": "change"}
+{"text": "ello i am looking four a flight from hou two den can you please hlepp me", "intent": "book"}
+{"text": "Hi. My name is Paaul Wilson, I want to cancel my recent rre", "intent": "cancel"}
+{"text": "hi ii am james thompson here i want o resserve my ticket from sfo to clt can you please help me", "intent": "book"}
+{"text": "hello can you help me to cancel my reservation myself cynthia taylor", "intent": "cancel"}
+{"text": "Hello. Can yku please help me in flight ticket booking process from ATL to DTW?", "intent": "book"}
+{"text": "hello i want to cancel my recent reservation due to work that my manager did not approve my leaves so can you pl", "intent": "cancel"}
+{"text": "hi i want reserve my tickdt from jfk to den can you please help me", "intent": "book"}
+{"text": "hi i am alexander taylor can you please change my existing reservation as my plan to go for holiday tri", "intent": "change"}
+{"text": "hi i am andrew jones please book a flight ticket on dates 061", "intent": "book"}
+{"text": "Hello. I'm George Perez. I had planned to go on a vacation, but it was postponed. Can you change my recen", "intent": "change"}
+{"text": "hi i am jacob i am marketing manager at hl comany planned for a product presentation at new york on 1203 but was cancelled due to some problem can you help me in cancelling my", "intent": "cancel"}
+{"text": "hello can you please help me in changing my existing reservation as my meeting got postponed at houston", "intent": "change"}
+{"text": "Hello. I want to cancel my recent reservtion, Can you please help", "intent": "cancel"}
+{"text": "Hello. I am Ronald Allen. I want to change an existing reservation, can you please help me in that?", "intent": "change"}
+{"text": "hi you cancel my recent reservation thank you", "intent": "cancel"}
+{"text": "Hello. I am Debroah Perez. As my interview has been postponed, I need to change my reservation. Can you please channge my reservation?", "intent": "change"}
+{"text": "Hello. Stephanie Carter here. Due tto inconvenience of my work, I ant to cancel my reservation. Can you please heelp me for that?", "intent": "cancel"}
+{"text": "hello i am mark parker can you help me ib changing my recent reservation", "intent": "change"}
+{"text": "hello i am to book a ticket from ewr to oak can you please hellp me out", "intent": "book"}
+{"text": "Hi. I am Emma Clark. I planning to fly from LAS to SEA in this ewek, can you help me", "intent": "book"}
+{"text": "Helo. My holiday vacatioon has been postponed, can you please jelp me for changing the existing reservation?", "intent": "change"}
+{"text": "hello i would like to cancel my reservation as i am leaving for delegates meet can you pleas", "intent": "cancel"}
+{"text": "Hello. Myself Christine Turner. I want to cancel my recent resrevation, due to some health issues. Can y", "intent": "cancel"}
+{"text": "Hello. I want to cancel my recent reservation due to health issues, can you please help me with tha?", "intent": "cancel"}
+{"text": "Hello. I am planned to travel to meet my uncle, suddenly the program has been changed. So I am willing toc hange my reservation. Can you please help me for this?", "intent": "change"}
+{"text": "hello i am gregory lee rfom houston i am planning two go for  business trip with colleagues at las vegas las will you help me to book a flight ticket from iah", "intent": "book"}
+{"text": "hello can you please help me in booking my tickeet from jfk to phl", "intent": "book"}
+{"text": "hi patricia young is my name i want to cancel recent rwservatin because i want to trabel with my friends bhy road", "intent": "cancel"}
+{"text": "Hi. Myyself Richard Taylor. I want to cancel my reecnt reservation due to some health issues, can you helpm e?", "intent": "cancel"}
+{"text": "hello i am deborah perez i have a plan to meet my sister in clt can you please fnid a flight from msp", "intent": "book"}
+{"text": "hi i booekd a fright ticket n yoour agency four my holliday trip to houston but now i want a change in the tfavel dates sew can you go ahead and cch", "intent": "change"}
+{"text": "Hello. Please reserve me a fligjt gicket from LGA to LAS. My trip eaes qre Jan 0", "intent": "book"}
+{"text": "hello eric hill hear please help me out in cancelling my recent res", "intent": "cancel"}
+{"text": "Hello. I am planning to cchange an existing reservvation, due to health issue. Can you please help me out?", "intent": "change"}
+{"text": "Hi. I am Barbara White. I want to go to Las Vegas to explore new things about famous singer Justin to make a documentary. Can y", "intent": "book"}
+{"text": "hello i am michelle carter i would like to explore four the nature at los could you help me in booking my flight ticket wit", "intent": "book"}
+{"text": "Hello. Can you please assist me to cancel my active reservation? Edward Rodriguez.", "intent": "cancel"}
+{"text": "Hello. I am Shirley Walker. I would likd to book a ticket to San FFrancisco, can you pleasse help me out in booking from JFK to SFO?", "intent": "book"}
+{"text": "Hi. I am Amanda Moore. Can ou help me inn bookng clight to reach LAX from DEN?", "intent": "book"}
+{"text": "hello jonathan adams hre i need to ancel my recent reservation due to snofall can you please guide me", "intent": "cancel"}
+{"text": "hi oaing to an emergencyy i want to cancel my reservation can you help me out", "intent": "cancel"}
+{"text": "hello i want to cancel my reservation as i have to prepare for my exam can you please help me with that", "intent": "cancel"}
+{"text": "hello i am dankel roberts unfortunately my tour was canceled can help me canceling ym reservation", "intent": "cancel"}
+{"text": "hello im dennis allen could you please help me in booking my flight tiket", "intent": "book"}
+{"text": "hello i ti cancel my recent reservation as my exams got postponed can you please he", "intent": "cancel"}
+{"text": "Hi, I am Jack Lewis. Owign an emerence, I want to cancel my recent reservation.", "intent": "cancel"}
+{"text": "i i am unable to change my existing reservation can you please help to modify my resdrvation", "intent": "change"}
+{"text": "Hello. Can yuo please help me to cange my reservation? My name is Laurra Johnson.", "intent": "change"}
+{"text": "hello i am melissa jones my holiday trip has been cancelled could you please help me with cancelling my rece", "intent": "cancel"}
+{"text": "hi my name ix michael garcia my holiday trip has been postponed so i would like two change my reservation i had planned to go on a vvacatiob but was postponedcan you change my recent reservation", "intent": "change"}
+{"text": "hello my name is patricia green owing to emergency i need to caancel my recent reservation please help me with that", "intent": "cancel"}
+{"text": "Hello. Can you please elp me in changing my reservation as the audio launcch which I want to attend", "intent": "change"}
+{"text": "Hello. I am Reecca Cllark. Due to emergency I need to chang my existing reservation, Can youh elp me for change r", "intent": "change"}
+{"text": "helli i am paul i want to book a ticket from sea to mcl", "intent": "book"}
+{"text": "hello im charles hall my business meeting has been postponed sew i would like two change my existing eservation can you please help mw with thzt", "intent": "change"}
+{"text": "Hi. Please helpm e to change my recent reservation. I am Sandra Baker.", "intent": "change"}
+{"text": "Hi. My name is Ryan Taylor. I want to book a flight itcket from BOS to CLT, could you please help me?", "intent": "book"}
+{"text": "hello i am nanccy taylor due to some emergency i need to cancel my recent reservation an you please help me in cancelling my reservation", "intent": "cancel"}
+{"text": "Hllo, I am Gregory Smith. I want to attend my sister's wedding at Houston, HOU. Can you help me in boooking ffrom Minneapolis?", "intent": "book"}
+{"text": "hello i am gregory moore i want to cancel my recent reservation can you please belp me in cancelling my reservation", "intent": "cancel"}
+{"text": "ehllo i am jack clark i want to change my reservwtion due to sudden bad weather condition my place", "intent": "change"}
+{"text": "hi i am young i aant to book a flight ticket to msp with price under 500 can you", "intent": "book"}
+{"text": "hello sure i am benjamin wright i want to cancel my recent reservation due to some health issue can you hellp me for cancellation", "intent": "cancel"}
+{"text": "Hi, I am Margaret Campbell. My business trip has been changed to Dallas, can you please help me in chnaging my existing reservation?", "intent": "change"}
+{"text": "hi myself angela jackson for some issues i want to cancel my reservation can you please help me", "intent": "cancel"}
+{"text": "Hello. I need to reserve ms a ticket from CLT to JFK, can you help me in doing that?", "intent": "book"}
+{"text": "Hello. My name is Raymond White and I want to change my existing rservation.", "intent": "change"}
+{"text": "Hello. My name is Eric Wilson. I want to change my reservatikj as myp lan to meet my friend got extendeed, can you please help?", "intent": "change"}
+{"text": "Hi, myself Virginia Garcia. Oqing to have an emergenc, I need to change my reservaton. Could you b my helping hand in ghis?", "intent": "change"}
+{"text": "hello my name is gregory miller i want to visit discovery place science and technology musum in can you please help me ti book a flight from ewr", "intent": "book"}
+{"text": "Hello. Due to my health conditions, I want to change jy recent reservation.Can yu heelp me with that?", "intent": "change"}
+{"text": "Hello. I want to cancel my ticket due to heavy floods in my place.", "intent": "cancel"}
+{"text": "Hello. Due to health issues, I nwy to change my existing reservation. Can you pleqse help me?", "intent": "change"}
+{"text": "Hello. I want to change my reservation, can you help me w", "intent": "change"}
+{"text": "hello i am deborah collins i want to bokk a flight ticket to attend gathering from at ord from iad cany oou please help me with this my travelling dates are from 0722 to 0724 with price limit of 5000 and single connection", "intent": "book"}
+{"text": "hello my business trip has been postponedcan you please help me for changing the exis", "intent": "change"}
+{"text": "Hi,. I need to cancel my reservation as I need to stay back in own city duet o my house has collapsed by Floods. Can youh elp me with that?", "intent": "cancel"}
+{"text": "hi pllease book a flight from oakland oak thank you", "intent": "book"}
+{"text": "hi paul campbell here reseve a flight ticket for me that is from clt to iah for my trip to houston i am looking for a c", "intent": "book"}
+{"text": "hello im i need to attend a business meeting in ednvercan you book a ticket from phx to den", "intent": "book"}
+{"text": "hello i am anna robinson i want to change my reservation as my pan to meet my share holder postponed can you h", "intent": "change"}
+{"text": "hello i am patricis campbell can you make a reservation from den to hou", "intent": "book"}
+{"text": "hi i want to channge my existing reservation which is done recently can you please help me in tihs", "intent": "change"}
+{"text": "hello i am joshua allen due to emergency i need to ccancel my eservation can you please cancel my exxisting erservation", "intent": "cancel"}
+{"text": "Hi, Sharon Rodriguez here. I would like to go DFW on 12/13, to celebrate my parents 25th wedding annigersary. Please book a flight ticket.", "intent": "book"}
+{"text": "hello i am angela tturner here i am planning to book my fright ticket from ord to hou can", "intent": "book"}
+{"text": "hello help me in cancelling my flight reseravtion as i modified my t", "intent": "cancel"}
+{"text": "Helloo. Brandon BBrown heree. I was made a reservation earlier ni this week. But j want to change my reservation. Can youp lease help me for that?", "intent": "change"}
+{"text": "Hi. Due to emergency I need to cancel my recent reservation, Can you please help me with that?", "intent": "cancel"}
+{"text": "hello can you plesae ook me a ticket from lax to dca to ttend a meeting", "intent": "book"}
+{"text": "Hi. I want to meet my friend on his birthday, an you please help me to book my flight ticket from LGA to DEN?", "intent": "book"}
+{"text": "hlelo i am jason anderson can you cancel my reservation sure", "intent": "cancel"}
+{"text": "Hello, Nancy Jounson here. Due to sudden change in my plan. I want to canecl my previous reservation. Can you help me out?", "intent": "cancel"}
+{"text": "hello i am brenda lopez i need to canncel my recent reservation as my rxam got cancelled please helpp me in cancelling", "intent": "cancel"}
+{"text": "Hi. Owing to an emergency, I want to change my existing reservation.", "intent": "change"}
+{"text": "hi i need to hcange my reservation as my plan to go for trekking got postpooned can yu help me", "intent": "change"}
+{"text": "Hello. I'm Daniel Mrtinez. I want to cancel my reservation because I was having interview, but I sm not fully prepared, c", "intent": "cancel"}
+{"text": "nello please book a from dtw to iad my trip dates re june 23 june 25", "intent": "book"}
+{"text": "hi i am kenneth clark i wood like to attend story telling festival with my sister andh elps to learn new stories ni minnneapolis st ppaul will you please assist me in bookin", "intent": "book"}
+{"text": "Hello. Owing to an emergency I had to request for this change resedvqtion.", "intent": "change"}
+{"text": "high i am barbara moore i need to book a flight ticket from dca to dfw can you pleaess help me", "intent": "book"}
+{"text": "Hello. I am Richard Brown. I need to chage my existing reservation, as mys cheduled footbakl match got postponed due to bad weather. qill you help me in changing", "intent": "change"}
+{"text": "Hi. Owing to an emergency, I want to change my existing res", "intent": "change"}
+{"text": "Hi. I am Timothy King. I need to change my existing reseervation, Can you pleaase help me with htat?", "intent": "change"}
+{"text": "hello james adams here to an emergency i want to cancel my reservation can you please help me for that", "intent": "cancel"}
+{"text": "hi jason here can you help me to change my recent reservation because of work postpone", "intent": "change"}
+{"text": "Hello, I am Nancy Smith. My exam has been postponed I want to change my existing reservation. Can you please help me with it/.", "intent": "change"}
+{"text": "Hi. I would like to make a flight ticket reservation from DA to ORD, can you please help me?", "intent": "book"}
+{"text": "Hi. I am Keneth Anderson. Can you please be my helping hand in changing my existing", "intent": "change"}
+{"text": "Hi. I am Gary Robisnon, planning to visit Field museum of natural hsitory which is at Chicago, ORD.So, can you please reserve a flight ticket for me?", "intent": "book"}
+{"text": "hello i would like to viskt minneapolis as my octor prescribed me two go four a change will you help me with boing a flight ticket", "intent": "book"}
+{"text": "hello duee to some entrepreneurship meetnig i am going to change my existing reservation cwn you help me", "intent": "change"}
+{"text": "hi i am christopher hill i want to change my reservation as my project work got extended nad i need some time to submit the report can you please hlp me n changing", "intent": "change"}
+{"text": "Hi. My name is Sadnra Phillips. Due to an accident to my friend, I would like to change my existing reservation. Could yuo please help me?", "intent": "change"}
+{"text": "Hi. Can you please help me in changing my existing reservation? John cavis.", "intent": "change"}
+{"text": "Hello. I want to chqge my destination airport code in my existing reservation, can you please help me out?", "intent": "change"}
+{"text": "Helo. I am Richard Adams want to change my rreservation  due to prepone of my business meeting.", "intent": "change"}
+{"text": "Hello. Can you please help me wfh booking a fligght ticket from EWR to LGA?", "intent": "book"}
+{"text": "Hello. I need you to make few changes in my recent booking. Please help me.", "intent": "change"}
+{"text": "hello owing to an emergency i want two cancel my reservation cna you please help me with that", "intent": "cancel"}
+{"text": "Hello. Can you please help me in booking my flgiht ticket from", "intent": "book"}
+{"text": "hello i am elizabeth perez i planned to attend for a meeting in oak can you please help me to book a flig", "intent": "book"}
+{"text": "Hello. I am Anna Mitchell. Can you please find a flight for me from Denver? Because I have to attend a partyy in Detroit.", "intent": "book"}
+{"text": "hi i laura lewis since i am a model i need to attend a beauty conteest t lks angeles please book me a ticket from dfw to lax my preferred journey dates are 0507 and 0509", "intent": "book"}
+{"text": "hello i want to a fright from iad to las can you please help me with t", "intent": "book"}
+{"text": "Hello. k need you to make few changes in my recent booking, please help me.", "intent": "change"}
+{"text": "Hello. As I am a scientst, I want to atteend science festival with my students at Oaklane. Can you do the reservatoin?", "intent": "book"}
+{"text": "hello steven robinson hear my ijterview has been postpond so want to reschedule my itinerary dates", "intent": "change"}
+{"text": "hello i wood like to change my fright reservation as my trip got postponed can you", "intent": "change"}
+{"text": "Hello, I an Alexander Hernandez. I would like to go to a beach in Dallas, so xould you please book", "intent": "book"}
+{"text": "Hello,. I aleeady have an reservation to attend a meeting, due tos ome problems my meeting place has been chaanged. So I need a few changes", "intent": "change"}
+{"text": "hello can you please make a reservation from sfo to phx to attend a seminar in phoenix", "intent": "book"}
+{"text": "hi can you please help me woth cancelling my recent reservation my name is donna wright", "intent": "cancel"}
+{"text": "Hello. I am Nicholas Robinson. As my interview is postpohed, I need to cancel my reservation. Can you help me?", "intent": "cancel"}
+{"text": "Helllo. I am Ryan Garcia. Deu to some sudden changes in weathrr, I eed to cancel m", "intent": "cancel"}
+{"text": "Hi. I want tp cancel my reservation which is done recently due to some health issues, can you please", "intent": "cancel"}
+{"text": "Hello. Actually, my father had booked me a flight ticket to take me with him to buy w new Audi car but I met with an accident and doctor told too take bed rest and he journey got postpoend, so ca youu please help me with my flight ticket changing process?", "intent": "change"}
+{"text": "hello can you aid me in bookinga  flight ticket in hormal cost airline", "intent": "book"}
+{"text": "Hi, Emily White here. Due to Wildfire warnings in my destination place, I want to cancel my recent reservation. Can you help me with this?", "intent": "cancel"}
+{"text": "Hello, I am Janet Turner. I need to change my existing flight reservation.Can you please help me.", "intent": "change"}
+{"text": "hellk i am ashley roberts i want to change my existing rservation due to postpone of workshop detroit could you please help me", "intent": "change"}
+{"text": "hello i a shirley wlaker i am to visit the wizardnig world of harry potter at orlando flmco o can you please help me in booling a plane ticket from seattle sea", "intent": "book"}
+{"text": "hi i amm wilson can you hep me in cancelling recent reservation as ny exam is postponed", "intent": "cancel"}
+{"text": "Hello. I am George Baker. I am planning to book a ticket to meet my best friend at DEN. Can you please help me out to book a ticket for me?", "intent": "book"}
+{"text": "hello can you please help me in changing my existing reservatin my previous reservation has done with th", "intent": "change"}
+{"text": "Hello. I have to attend a Music Concert af San Francisco, could you please help me with booking a flight ticket from LAS to SFO?", "intent": "book"}
+{"text": "Hi. I need to change my existing resrevation as mmy trip got postponed, Can you pplease help me with that?", "intent": "change"}
+{"text": "Hi. I am Karen Perez. I want to cancle my recent reservation due to sudden cancellation of my trip. Can you help md?", "intent": "cancel"}
+{"text": "hello i want to cancel my recent reservation can you please help me out", "intent": "cancel"}
+{"text": "Hello, I am Nancy Mitchell. I want to cancel my ticket due to an emergency. Can youh elp me?", "intent": "cancel"}
+{"text": "Hello. I planned to meet my friend in OAK, can you please help me to book a flight ticket from DTW?", "intent": "book"}
+{"text": "Hi. I am Nicole Mitchell. My business meeting got cancelled, can you please help me in canceling my reecnt reservation?", "intent": "cancel"}
+{"text": "hello i need to cancel my recent eeservation can you plea", "intent": "cancel"}
+{"text": "hello i am elizabeth wislon can you please help me in booking my flight ticket from iad top hl", "intent": "book"}
+{"text": "hi i am joshua lee i need to cancel my reservation can you help me out", "intent": "cancel"}
+{"text": "hello i am planning to book a fright ticket to sfo from dca can you pleaze", "intent": "book"}
+{"text": "Hi. I am Patrick Brown. I made my reservation jn advance, but now found out I don't havee any leaves so want to cancel my reservation.Please", "intent": "cancel"}
+{"text": "Hi. I had visited my grand mother house last week but, I feel to stay here only. But I did reeturn reservation also so, I want to cchange my reservation.", "intent": "change"}
+{"text": "hi due to landslides happening at my location i wnat to quit my trip can you please help me in cancelling my ticket", "intent": "cancel"}
+{"text": "Hello. I am loking to boko a flgiht ticket from PHX to MCO. Can you help", "intent": "book"}
+{"text": "Hello, I am Emily Lee. I made a reservaiton earlier this week to give a seminar, but ym semniar has been postponed. Could you please help me with changing my reservatio?", "intent": "change"}
+{"text": "hello due two heavy rain i want to cancel my recent reservation can you help me", "intent": "cancel"}
+{"text": "hello i am anna young please help me with changing my reservation due twwo some changes in the plan of my trip with my cooleagues can you", "intent": "change"}
+{"text": "Hi. Owing to an emergency, my business conference got cancelled. So I had a request to yu to cancel my exisging reservation?", "intent": "cancel"}
+{"text": "Hi. I mde an earlier reservation to attend a polktical event due to security issues it got postponed. Can you please help me in changing my reservation?", "intent": "change"}
+{"text": "hi i am betty walker i would lke to travel from oaakland oak to enjoy beach holiday in atlanta", "intent": "book"}
+{"text": "Hi. Debra King here. Can you help me in cancelling my reservation?", "intent": "cancel"}
+{"text": "Hi. Can you please help me in cancelling my recentr eservation? My name is Stev", "intent": "cancel"}
+{"text": "Hello. Owing to emergency I want to cancel my recetn reservation, can yoy help me with thhat?", "intent": "cancel"}
+{"text": "Hi. I amP aul Mitcehll. Would it be pssible to cancel my reservatioon, which I have done with my nam?", "intent": "cancel"}
+{"text": "Hello. I am Samantha Mitchell. I want to change my existing reservation due to postpone of my trip with my friends. Could you pleasd help me?", "intent": "change"}
+{"text": "hello i am ashley johnson from chicago i just want to give a surprise party to my beloved friend at austin can you assist me in booking my flight ticke", "intent": "book"}
+{"text": "Hello. I would like to cahnge my resrevaiton which is under mmy name. Can you please help", "intent": "change"}
+{"text": "hello i am timothhy lopez we havep lanned to visit the mall for attending the event on 0611 could you please help me in booking a return ticket on 0613", "intent": "book"}
+{"text": "Hi. Jacob Smith here. I would lkie to cancel my recent reservation today, can you please help me out?", "intent": "cancel"}
+{"text": "Hello. I am Carol Johnson. Will you please search a flight ticket from DEN on 06/01?", "intent": "book"}
+{"text": "hello my name is jessica taylor can you help to cancel my reservation which i had done a week ago", "intent": "cancel"}
+{"text": "hello can you help me in booking a flight ticket from cl", "intent": "book"}
+{"text": "hello dje two some emergency i need to cnceel my recent reservation can you help me canceling my reservtion", "intent": "cancel"}
+{"text": "Hello. I am Jessica Alllen. I need ti cancel my recent reservation, as my exam scheduled got cancelled. Plaese help me ni cancelling?", "intent": "cancel"}
+{"text": "hello am jennifer llpez i wood like to change my existing reservation as my reporting date got postponed can you h", "intent": "change"}
+{"text": "Hello. Due to heavy rain, I want to cancel my reservation. Can yo help mme?", "intent": "cancel"}
+{"text": "Hello. Aid me in booking a connecting flight to Chicago. Definitely, mmy journey dates are 07/28 and 07/30.", "intent": "book"}
+{"text": "hello i am elizabeth jackwoj i want to book a flight icket ffrom nsw yyork ot washington to meet my new client help me in bbooking my flight ticket", "intent": "book"}
+{"text": "hii  have rescheduled my plan can you render me in amending my re", "intent": "change"}
+{"text": "Hello. Helen Turner here. I wnat to cancel my tickwt. Can you help me in this?", "intent": "cancel"}
+{"text": "hello my name is ronald davis due to some personal issues i would like to change my existint reservatil", "intent": "change"}
+{"text": "hi i planning to gl for boston bos to meet my parents so can you please help me in booking my flight ticket from detorit dtw", "intent": "book"}
+{"text": "Hello. I would like to cancel my recent reservation because my trip dates are got postponed, can", "intent": "cancel"}
+{"text": "Hello. Would it be possible to cancel my reservation, hich I have dkne wit", "intent": "cancel"}
+{"text": "Hi. I am Shirley Bsker, can you help je booking fligyt from DEN to AUS?", "intent": "book"}
+{"text": "hello owing to an emergency i need to change my reservation can you please help me out", "intent": "change"}
+{"text": "Hello. Due to some financial issues, I would like to cancel my recent reservation. Please help me out.", "intent": "cancel"}
+{"text": "hello i would like to a business meeting at phoenix please help me in booking a ticket from clt to phx", "intent": "book"}
+{"text": "hi owing to an emergency i had to request for this cancel resrvation", "intent": "cancel"}
+{"text": "Hi. I am Frank Hall. I would like to travelf rom Detroit in the afternoon time. Can you please search a flight ticket for me?", "intent": "book"}
+{"text": "Hi. I ma Brian Taylor. Can you help me in booking from CLT to DTW?", "intent": "book"}
+{"text": "Hello. I need to reserve a ticket from PXH to OAK, can you help me in", "intent": "book"}
+{"text": "Hello. I'm Kathleen Rberts. I ak planning to traveels from DFW to ATL for a business meeting, can you please help me with bookij", "intent": "book"}
+{"text": "Hello. I am planning to book a ticket from JFK to SFO. Can you please help me out?", "intent": "book"}
+{"text": "hi my name is benjamin edwards i want to czncel my reservation could you ehlp me in that", "intent": "cancel"}
+{"text": "hello i am laura baker i have a plane to viisit central park at new york please a fright tickett", "intent": "book"}
+{"text": "hello am catherine taylor i need to book a connecting flight", "intent": "book"}
+{"text": "Hi. I am tary Edwards. Can you please help me in booking a flight ticket from ATL to LAX?", "intent": "book"}
+{"text": "hi deborah robinson here i am looking for a flight with price below 1000 c", "intent": "book"}
+{"text": "Hi. Please book me a flight ticket from SFO to ATL. I am Jaent Martinez.", "intent": "book"}
+{"text": "Hello. I am Stephanie Campbell. My business meeting has been cancelled, could you please help me with cacnelling my", "intent": "cancel"}
+{"text": "Hello. This is Katherine Baker, can yoi help me to book a flight ticket from", "intent": "book"}
+{"text": "hello rachel martin here actually i booked a tickett o ms for a intervew but due to a medical problem im unable to attend could you help me n chajging my reservation t", "intent": "change"}
+{"text": "hello i want to change my existing reservation can you please help me in that", "intent": "change"}
+{"text": "Hello. I am Kathleen Lopez. I wuold like to book a ticket from LAS to IAH, can you pleas", "intent": "book"}
+{"text": "Hello. I want to cancel my reservation, so please help me in the cancellation.", "intent": "cancel"}
+{"text": "Hello. I have made a reservation to attend fo a get together party, but due to some issuws the party got postponed to some other dates. Can you please help me to chage my reservation?", "intent": "change"}
+{"text": "Hello. I am Janet Davis. Can you please cancel my reservation as the food festival which I have lpanned to at", "intent": "cancel"}
+{"text": "hello i want to cancel my ticket due to heavy floods in m", "intent": "cancel"}
+{"text": "hello i want change my travel dates in my resdrvation so can you help me with that", "intent": "change"}
+{"text": "Hello, I am Helen Wright. I  need a flight ticket to MN - MSP for film audition on 08/28. fan you please book a", "intent": "book"}
+{"text": "hello due tto inconvenience of my work i want to canel my can you pleasse help me for thhat", "intent": "cancel"}
+{"text": "hello my name is lisa roberts i want to do some changes in existing can you please help me for that", "intent": "change"}
+{"text": "hello i am brandon parker to travel ffom lga to phl please help me in boiking my ticket", "intent": "book"}
+{"text": "Helllo. I need to cancel my recent reservqtion due to some issues, can you help me in doing that?", "intent": "cancel"}
+{"text": "Hello, Ashley Wilpiams here. I have planned to visitt World of Coca-Cola museum in tlanta, so could you please help me to book a flight from SOF to ATL?", "intent": "book"}
+{"text": "hello i am joseph lee just want to change my existing eservation due to sudden demise of my grand mother can you", "intent": "change"}
+{"text": "Hello. Please help me to cancel my recent reservation. Patrick Miller.", "intent": "cancel"}
+{"text": "hello myself betry neerson i want to change my existing reservation ccan yo help me", "intent": "change"}
+{"text": "Hello. I am Margaret Williams. Owing to an emergency, I want to cancel my reservation. Could you please help me in the cancellation?", "intent": "cancel"}
+{"text": "hello can you please help mee to book a fright from ewr twwo dca", "intent": "book"}
+{"text": "hi please change existing reservation owing to an emergency my name is carolyn lee", "intent": "change"}
+{"text": "hi i have to cancel my fright ticket booking can you please help me in that won", "intent": "cancel"}
+{"text": "Hello, I am Virginia Walker. I want to cancel my recent reservation due to sme issues, can you please help me with that?", "intent": "cancel"}
+{"text": "helpo please change my existing reservation owing to an emergency i am samantha king", "intent": "change"}
+{"text": "Hello. I am Jennifer Adams. Due o sudden change of my business meeting because of xome technical problem, I need to change my reservation so can you help me with that?", "intent": "change"}
+{"text": "high could you please change my existing reservation due to postpone o", "intent": "change"}
+{"text": "Hello. I am Kevin qilliams. Owin to aj emergency, I would like to cancel my rceent reservation. Could you", "intent": "cancel"}
+{"text": "Hi. I am Stephanie Evans. I just want to change an existing reservation as my meeting got oost pone due to some technical issues. Can you help me?", "intent": "change"}
+{"text": "Hi. I want to canncel my reservation which is done recently due to some problems, can you please hel me?", "intent": "cancel"}
+{"text": "Hello. Can yuo please eylp in chaingng my existing reservation? I hvae reseved my flight ticket in the name of Nichholas Green.", "intent": "change"}
+{"text": "hello i want to my recent ticket booking due to office work that my manager did not approved my leaves so can y", "intent": "cancel"}
+{"text": "hello willian jackson here i want to cancel my active reservation because my trip dates are postponed can you help me", "intent": "cancel"}
+{"text": "HHello. Mary Martin here. Actually I made a earlier reservation to go for a trip with my friends, but heavy work load in offfice I want to changee my reservatioj.", "intent": "change"}
+{"text": "hello i am janetd avis owing wtoa n emergency i want to caancel my recent reservation can please help", "intent": "cancel"}
+{"text": "Hello,. I am Georgge Harris. I made a reservation earlier in the wrong date unknowignly, so I wat to change my existing reservationn. Can you help me in chang", "intent": "change"}
+{"text": "Hi. I nesd to cancel my reservation for a client meeting but I have gt a sudden dall from my friend that one of my friend got met with an accident so I feel to cancel my reservation.", "intent": "cancel"}
+{"text": "Hello. I am Raymond Baker, can you change my recent reservation because I want to make some changes?", "intent": "change"}
+{"text": "Hello. I am Jason Hernandez. Could you please help me in flight tciket booking process from EWR to IAD?", "intent": "book"}
+{"text": "Hello, I am Kimberly Turner. I need to change my reservation as my get together rogram postponed. Ca", "intent": "change"}
+{"text": "Hello. I am David Nelson. I am planning to book a filght ticket to going for Death valley adventures at PA-PHL. So can you lpease help me to make a airline reservation within ffare of 200?", "intent": "book"}
+{"text": "hi margaret rodrigue here could you please help me in xancelling my reservatin", "intent": "cancel"}
+{"text": "Hi. I want to fly from CLT to BOS. Can you check the flight availability on tha route?", "intent": "book"}
+{"text": "Hello. Due to some urgent meeting, I am going to change my reservation. Can you please help me for his?", "intent": "change"}
+{"text": "hello in eed a reservation meet my project mznager at nc lct can you please book a ticket with a price limit of 5000", "intent": "book"}
+{"text": "hello i am andrew garcia i need to my reservation as i need to stay back in own city due to my house has collapsed by floods could you please help me in the cancellation", "intent": "cancel"}
+{"text": "Hi. I wannt to change my existing reservation which is dlne recently due to business meeting postponed, can you please help me?", "intent": "change"}
+{"text": "Hi. I am Gary Evans, can you help me to book a flight rfom SEA ot HL?", "intent": "book"}
+{"text": "hello i would like to meet my mother at houston please help me in booking a ticket from ewr to iah", "intent": "book"}
+{"text": "Hello. I am Daniel Johnson. I need to reschedulem y existing reservation as my plan to go for a adventure trip got postponed. Can you help me in changinv?", "intent": "change"}
+{"text": "Hello. I would like to cancel my recent reservation, due to my meeting got postponed. Could you please hel", "intent": "cancel"}
+{"text": "hello due to inconvenience o my work i want to change my reservation can you please help for tthat", "intent": "change"}
+{"text": "hi i have to do some in my previous fright ticket booking that there is suddden event held at my home toen so i am unable two travel the trip can you please help me out wit", "intent": "change"}
+{"text": "hello i need to cancel my reservation which i have done to participate in dance event but unfortunaely dance event got cancelled can you help me", "intent": "cancel"}
+{"text": "hello i want to make fliht reservation from co den to ny ewr can you help me in booking a flight ticket with", "intent": "book"}
+{"text": "hi i am jacob clark owing emergence i want two change my existing", "intent": "change"}
+{"text": "Hello. Due to some entrepreneurship meeting, I am going to change my existing reservation. Can you please help me in changing the reservation?", "intent": "change"}
+{"text": "Hi. Can you help me in booking from JFK to BOS? My trip dates are Oct 17 to Oct 19.", "intent": "book"}
+{"text": "Hello. Due to relocatino of my fashion show computatjon, I need to change my existing reservation. Can you aid me to change my re", "intent": "change"}
+{"text": "hello i want to cancel my reservation you please h", "intent": "cancel"}
+{"text": "hi i am planning tto visit the haunteda ustin evening adventure which is located in austin aus", "intent": "book"}
+{"text": "hello i ma ruth nelson can you help me in booking a flight ticket form sfo to atl", "intent": "book"}
+{"text": "hello i a kenneth smith i want to book a flignt ticket to atttend my frirnd marriage ni orlando mc cann you please make a reserrvation from las", "intent": "book"}
+{"text": "Hello. I want to cancel my recent booking due to family issues that I am unable to travel the trip which I have planned. Can you please cancel", "intent": "cancel"}
+{"text": "hello im jeessica lopez due to the sudden death of my friends fahter i would like to cancel my decent reservatiin", "intent": "cancel"}
+{"text": "Hi. I am Andrew Rodriguez. Can you cancel a flight ticket? It was booked last week, as me and my friends were planni", "intent": "cancel"}
+{"text": "hello i am jason robinson i want to cancel my recent reservation due to some health issues yoi please help me with that", "intent": "cancel"}
+{"text": "Hi. Could you please aid me in booking a flight ticket from", "intent": "book"}
+{"text": "hello please cancel my recent reservation due to some health issues sure i am margaret martin", "intent": "cancel"}
+{"text": "hi ashley garccia here my trip was postponed and i want to change my reservation can", "intent": "change"}
+{"text": "hello i need to cancel my existing reservation as m planned trip with my friends got cancelled can you please help me out", "intent": "cancel"}
+{"text": "hello here robert lopez i am frm and i wantt tl go four the music concert whic is held iin knew york can you pleaseh elp me for booking tickets", "intent": "book"}
+{"text": "hi my name is patricic arter i want tob ook a flight ticket from san francisco csafo to oakland caoak can you please help me booking", "intent": "book"}
+{"text": "helli i have postpponed my plan to visitm y friends house can youu help me in changinng an exis", "intent": "change"}
+{"text": "hi i would like two amend an existing reservation due two health issue can you ple", "intent": "change"}
+{"text": "Hi,. I am Thomas Taylor. Please, cancel my receht reservation due to suddne demise of my g", "intent": "cancel"}
+{"text": "hi i want to change my resetvation can you help me with that", "intent": "change"}
+{"text": "hello ss my meetng got psotponed with my client can you please help me in changing my existi", "intent": "change"}
+{"text": "hello due to an emergency work i want to change my rseervation can you help me", "intent": "change"}
+{"text": "Hello. I am Catherine Taylor. Actually, my plan got cancelled. Can you help me to cancel my ticke", "intent": "cancel"}
+{"text": "Hi. My business meeting place got changed to Phoenix, can you please help me ni changing the reservation?", "intent": "change"}

@@ -1,0 +1,10 @@
+{
+  "condition": "clean",
+  "n": 300,
+  "macro_f1": 0.9967,
+  "validity_first_try": 1.0,
+  "validity_after_retry": 1.0,
+  "lm_calls": 300,
+  "wallclock_s": 52.5,
+  "s_per_100": 17.5
+}

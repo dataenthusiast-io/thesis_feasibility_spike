@@ -1,0 +1,158 @@
+{
+  "n1": [
+    {
+      "intent": "cancel",
+      "clean": "Hello. I want to cancel my recent reservation, as my exams got postponed. Can you please help me out with it?",
+      "perturbed": "hello i ti cancel my recent reservation as my exams got postponed can you please he"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello, I am Angela Moore. Can you render me in doing some changes in my existing reservation?",
+      "perturbed": "hello i am angela moore cany ou render ms in doing some changes in my existin"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. Steven Robinson here. My interview has been postponed, so I want to reschedule my itinerary dates.",
+      "perturbed": "hello steven robinson hear my ijterview has been postpond so want to reschedule my itinerary dates"
+    },
+    {
+      "intent": "change",
+      "clean": "Hi. I am Christopher Hill. I want to change my reservation as my project work got extended and I need some time to submit the report. Can you please help me in changing?",
+      "perturbed": "hi i am christopher hill i want to change my reservation as my project work got extended nad i need some time to submit the report can you please hlp me n changing"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. I am Richard Brown. I need to change my existing reservation, as my scheduled football match got postponed due to bad weather. Will you help me in changing my existing reservation?",
+      "perturbed": "Hello. I am Richard Brown. I need to chage my existing reservation, as mys cheduled footbakl match got postponed due to bad weather. qill you help me in changing"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello, I am Gregory Smith. I want to attend my sister's wedding at Houston, HOU. Can you help me in booking from Minneapolis?",
+      "perturbed": "Hllo, I am Gregory Smith. I want to attend my sister's wedding at Houston, HOU. Can you help me in boooking ffrom Minneapolis?"
+    },
+    {
+      "intent": "cancel",
+      "clean": "Hello. Jonathan Adams here. I need to cancel my recent reservation due to snowfall, can you please  guide me?",
+      "perturbed": "hello jonathan adams hre i need to ancel my recent reservation due to snofall can you please guide me"
+    },
+    {
+      "intent": "book",
+      "clean": "Hi. I am planning to visit the Haunted Austin evening adventure which is located in Austin, AUS.",
+      "perturbed": "hi i am planning tto visit the haunteda ustin evening adventure which is located in austin aus"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello. Please reserve me a flight ticket from LGA to LAS. My trip dates are Jan 09 and Jan 11.",
+      "perturbed": "Hello. Please reserve me a fligjt gicket from LGA to LAS. My trip eaes qre Jan 0"
+    },
+    {
+      "intent": "book",
+      "clean": "Hi. I am Gary Edwards. Can you please help me in booking a flight ticket from ATL to LAX?",
+      "perturbed": "Hi. I am tary Edwards. Can you please help me in booking a flight ticket from ATL to LAX?"
+    }
+  ],
+  "n2": [
+    {
+      "intent": "cancel",
+      "clean": "Hello. I want to cancel my recent reservation, as my exams got postponed. Can you please help me out with it?",
+      "perturbed": "hello i wantt to cancel my recent reservation as ny exams got posponed can yyou please help me out with it"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello, I am Angela Moore. Can you render me in doing some changes in my existing reservation?",
+      "perturbed": "hello am angela moore can you render me in doing some changes in mmy existin reservattion"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. Steven Robinson here. My interview has been postponed, so I want to reschedule my itinerary dates.",
+      "perturbed": "hello steven robinson my interview has been postponed sew i want two reschedule my itne"
+    },
+    {
+      "intent": "change",
+      "clean": "Hi. I am Christopher Hill. I want to change my reservation as my project work got extended and I need some time to submit the report. Can you please help me in changing?",
+      "perturbed": "hi i am christopher hill i want to cage my reservtion as myp roject work got extended and i need some time to submit the repport you ple"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. I am Richard Brown. I need to change my existing reservation, as my scheduled football match got postponed due to bad weather. Will you help me in changing my existing reservation?",
+      "perturbed": "hello i am eichard brown i need two change my existing reservation as ky scheduled ffootball match gto postponed due two bad weather will oyu elp me in changing my exixtjng rservaiton"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello, I am Gregory Smith. I want to attend my sister's wedding at Houston, HOU. Can you help me in booking from Minneapolis?",
+      "perturbed": "hello am smith i want to attend my sisters wedding at houston hou can you help mee in goi"
+    },
+    {
+      "intent": "cancel",
+      "clean": "Hello. Jonathan Adams here. I need to cancel my recent reservation due to snowfall, can you please  guide me?",
+      "perturbed": "hello jonathan adms heer i need tw acncel my recent reservayin due to snowfall can you pleas guied me"
+    },
+    {
+      "intent": "book",
+      "clean": "Hi. I am planning to visit the Haunted Austin evening adventure which is located in Austin, AUS.",
+      "perturbed": "hi i am planning to vist the haunted austin eveing advemture which is loc"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello. Please reserve me a flight ticket from LGA to LAS. My trip dates are Jan 09 and Jan 11.",
+      "perturbed": "hello please reserve me a flight ticket from lga to las my trip dates are jn"
+    },
+    {
+      "intent": "book",
+      "clean": "Hi. I am Gary Edwards. Can you please help me in booking a flight ticket from ATL to LAX?",
+      "perturbed": "hi i am gary edwsrds can you please help me in booking a frigght fr"
+    }
+  ],
+  "n3": [
+    {
+      "intent": "cancel",
+      "clean": "Hello. I want to cancel my recent reservation, as my exams got postponed. Can you please help me out with it?",
+      "perturbed": "hello i want to ccancel mmy recent reservatiooj as my xeams got postponed can you ple"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello, I am Angela Moore. Can you render me in doing some changes in my existing reservation?",
+      "perturbed": "am angela moore can fender me in doing some changes in m"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. Steven Robinson here. My interview has been postponed, so I want to reschedule my itinerary dates.",
+      "perturbed": "hell stevne robinosn herw my intevew has beenn postponed seew i aant tw resche"
+    },
+    {
+      "intent": "change",
+      "clean": "Hi. I am Christopher Hill. I want to change my reservation as my project work got extended and I need some time to submit the report. Can you please help me in changing?",
+      "perturbed": "hi i am christopher hill i changem y rservation my project worl gott extended and i need some ttimmet o submit the"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. I am Richard Brown. I need to change my existing reservation, as my scheduled football match got postponed due to bad weather. Will you help me in changing my existing reservation?",
+      "perturbed": "hello i richard brown in eed to change my eixstting reservqtion as my schediled fpotball postponed due bad weather wil"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello, I am Gregory Smith. I want to attend my sister's wedding at Houston, HOU. Can you help me in booking from Minneapolis?",
+      "perturbed": "hell i am gregory smtih i wabt to aftend my wedding housston hhou can you em in b"
+    },
+    {
+      "intent": "cancel",
+      "clean": "Hello. Jonathan Adams here. I need to cancel my recent reservation due to snowfall, can you please  guide me?",
+      "perturbed": "hello jonathan dams hher i needt wo cancel mmy recent due two snowfall acn"
+    },
+    {
+      "intent": "book",
+      "clean": "Hi. I am planning to visit the Haunted Austin evening adventure which is located in Austin, AUS.",
+      "perturbed": "high i am planning to viisit theh aunted austin veening adventure whiich is"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello. Please reserve me a flight ticket from LGA to LAS. My trip dates are Jan 09 and Jan 11.",
+      "perturbed": "hello please eesrve me a friht ticket rflm lga to las my trip dates"
+    },
+    {
+      "intent": "book",
+      "clean": "Hi. I am Gary Edwards. Can you please help me in booking a flight ticket from ATL to LAX?",
+      "perturbed": "hi iia m gary dwarsd can please mei n booking a fligght tcik"
+    }
+  ]
+}

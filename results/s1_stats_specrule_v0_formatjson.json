@@ -1,0 +1,10 @@
+{
+  "condition": "clean_formatjson",
+  "n": 300,
+  "macro_f1": 0.9326,
+  "validity_first_try": 0.88,
+  "validity_after_retry": 0.88,
+  "lm_calls": 336,
+  "wallclock_s": 59.4,
+  "s_per_100": 19.8
+}

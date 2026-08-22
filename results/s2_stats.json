@@ -1,0 +1,8 @@
+{
+  "completed_without_crash": true,
+  "baseline_macro_f1": 0.9967,
+  "optimized_macro_f1": 0.9967,
+  "delta": 0.0,
+  "optimization_wallclock_s": 148.2,
+  "optimization_lm_calls": 673
+}

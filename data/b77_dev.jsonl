@@ -1,0 +1,154 @@
+{"text": "Can I make a contactless payments?", "intent": "contactless_not_working"}
+{"text": "Will I be charged for topping up my account using a bank transfer?", "intent": "top_up_by_bank_transfer_charge"}
+{"text": "I blocked my card by mistake, how do I unblock it?", "intent": "pin_blocked"}
+{"text": "please cancel the transaction", "intent": "cancel_transfer"}
+{"text": "I was trying to use contactless earlier, but it didn't work.", "intent": "contactless_not_working"}
+{"text": "I made a purchase recently but I have decided that I'm not buying it and I need to receive my money back. Can you please give me a refund ASAP. It's extremely urgent.", "intent": "request_refund"}
+{"text": "tell me how I can order my card.", "intent": "order_physical_card"}
+{"text": "Can I have money transferred into my account at different intervals along my trip?", "intent": "automatic_top_up"}
+{"text": "I made a purchase but never expected to see a fee charged for the transaction.", "intent": "card_payment_fee_charged"}
+{"text": "I just saw the exchange rate you use, but it's so bad that I can't believe that it's the official interbank exchange rate! Is this truly the official interbank exchange rate?", "intent": "card_payment_wrong_exchange_rate"}
+{"text": "What retailers accept my card?", "intent": "card_acceptance"}
+{"text": "How can I put more money into my account?", "intent": "top_up_by_cash_or_cheque"}
+{"text": "My transfer hasn't arrived", "intent": "transfer_not_received_by_recipient"}
+{"text": "I didn't get my card back from the ATM.", "intent": "card_swallowed"}
+{"text": "It is extremely important that I cancel the transfer I made yesterday and put the money into a different account.  Is this possible?", "intent": "cancel_transfer"}
+{"text": "What are the top up charges for all US cards?", "intent": "top_up_by_card_charge"}
+{"text": "I lost my phone.  What do I do to block someone else from using my account?", "intent": "lost_or_stolen_phone"}
+{"text": "Transfer has failed.", "intent": "failed_transfer"}
+{"text": "The rate applied to my foreign currency at an ATM was incorrect.", "intent": "wrong_exchange_rate_for_cash_withdrawal"}
+{"text": "Can you do exchanges of EUR?", "intent": "fiat_currency_support"}
+{"text": "My salary is in GBP, is this something I need to configure?", "intent": "receiving_money"}
+{"text": "Balance is not up to date.", "intent": "balance_not_updated_after_bank_transfer"}
+{"text": "Can my children open an account?", "intent": "age_limit"}
+{"text": "What documentation do you accept for the identity check?", "intent": "verify_my_identity"}
+{"text": "Can we skip verifying?", "intent": "why_verify_identity"}
+{"text": "How do I return something for a full refund?", "intent": "request_refund"}
+{"text": "Can this app take my salary?", "intent": "receiving_money"}
+{"text": "what is this charge i didnt do it what can i do", "intent": "direct_debit_payment_not_recognised"}
+{"text": "I was using a foreign currecy to make a payment and the applied the wrong rate.", "intent": "card_payment_wrong_exchange_rate"}
+{"text": "How can I go about transferring money to my account?", "intent": "transfer_into_account"}
+{"text": "Can you let me know where my refund money is? I requested a refund a few days back, but it's not showing up yet.  Do you guys have the money yet? Maybe it's just not in my account.  Let me know when it will become available, please.", "intent": "Refund_not_showing_up"}
+{"text": "I did not get enough cash", "intent": "wrong_amount_of_cash_received"}
+{"text": "Tell me why there is an extra charge when I used an ATM?", "intent": "cash_withdrawal_charge"}
+{"text": "I do not have my pin yet", "intent": "get_physical_card"}
+{"text": "Can I change my PIN at any cash machines?", "intent": "change_pin"}
+{"text": "Hello, I was just went through my recent transaction on my bank account and I just noticed that I was charged twice at a place that ate at this past week. Can I get that second transaction removed from my account?", "intent": "transaction_charged_twice"}
+{"text": "How do a reverse a duplicated charge?", "intent": "transaction_charged_twice"}
+{"text": "Is auto top up a provided service?", "intent": "automatic_top_up"}
+{"text": "How can I get my money back for a payment i didnt make", "intent": "direct_debit_payment_not_recognised"}
+{"text": "Can someone assist me with explaining how I can unblock my pin?", "intent": "pin_blocked"}
+{"text": "I was mugged.  They took everything.  I can't use the app.  What do I do?", "intent": "lost_or_stolen_phone"}
+{"text": "There are charges on my card from the past few day I am pretty sure I didnt make, can you please freeze it for me? How do I get my money returned since it wasnt me?", "intent": "card_payment_not_recognised"}
+{"text": "How come my card payment has been declined?", "intent": "declined_card_payment"}
+{"text": "Since I got married, I need to change my name.", "intent": "edit_personal_details"}
+{"text": "I have an American Express that I'd like to add money to my account with.", "intent": "supported_cards_and_currencies"}
+{"text": "I want to apply for a Visa card.", "intent": "visa_or_mastercard"}
+{"text": "Where do I look for cash top up?", "intent": "top_up_by_cash_or_cheque"}
+{"text": "Tell me why my transfer is pending.", "intent": "pending_transfer"}
+{"text": "What does it mean if my payment has been reverted?", "intent": "reverted_card_payment?"}
+{"text": "Do you take SWIFT transfers?", "intent": "top_up_by_bank_transfer_charge"}
+{"text": "Using Google Pay, can I top up?", "intent": "apple_pay_or_google_pay"}
+{"text": "Why has my top up been returned?", "intent": "top_up_reverted"}
+{"text": "what's my top-up verification code?", "intent": "verify_top_up"}
+{"text": "What do I need to see my source of money?", "intent": "verify_source_of_funds"}
+{"text": "I need assistance activating my card?", "intent": "activate_my_card"}
+{"text": "Should I order a new card before I freeze my original one?", "intent": "compromised_card"}
+{"text": "Is there something wrong with my ATM Card?  Tried using it earlier and it did not work.", "intent": "declined_cash_withdrawal"}
+{"text": "How many active cards can I have?", "intent": "getting_spare_card"}
+{"text": "How long is US delivery?", "intent": "card_delivery_estimate"}
+{"text": "What is the procedure to transfer money to my account?", "intent": "transfer_into_account"}
+{"text": "Where can I use this card?", "intent": "card_acceptance"}
+{"text": "Why did the transfer fail when I attempted to do it earlier?", "intent": "failed_transfer"}
+{"text": "How long does a transfer from the US take?", "intent": "transfer_timing"}
+{"text": "How much extra will I be charged for exchanging foreign currency?", "intent": "exchange_charge"}
+{"text": "Money that I have transferred hasn't arrived yet", "intent": "balance_not_updated_after_bank_transfer"}
+{"text": "Why hasn't my card arrived yet?", "intent": "card_arrival"}
+{"text": "My payment was declined", "intent": "declined_card_payment"}
+{"text": "My statement contained a one pound extra fee", "intent": "extra_charge_on_statement"}
+{"text": "Can I use my virtual card for recurring monthly payments?", "intent": "virtual_card_not_working"}
+{"text": "My top-up was rejected by an app.", "intent": "top_up_failed"}
+{"text": "How much am I allowed to top-up?", "intent": "top_up_limits"}
+{"text": "I am upset with your service.  Please delete my account.", "intent": "terminate_account"}
+{"text": "What do I need to know about topping up?", "intent": "top_up_by_card_charge"}
+{"text": "How do I edit my personal details?", "intent": "edit_personal_details"}
+{"text": "My app shows a payment I didn't make", "intent": "card_payment_not_recognised"}
+{"text": "What should I do if my physical card isn't working?", "intent": "card_not_working"}
+{"text": "Can you tell me about the exchange fee?", "intent": "exchange_charge"}
+{"text": "Is there a limit to my top-up?", "intent": "top_up_limits"}
+{"text": "I am seeing in the App a some cash withdrawal that I did not do", "intent": "cash_withdrawal_not_recognised"}
+{"text": "There is no way for me to prove my identity.", "intent": "unable_to_verify_identity"}
+{"text": "can i top up from a usa credit card", "intent": "supported_cards_and_currencies"}
+{"text": "My payment didn't work and the money is in back in my account.", "intent": "reverted_card_payment?"}
+{"text": "Can I top up with Google Pay?", "intent": "apple_pay_or_google_pay"}
+{"text": "Can I have more physical cards?", "intent": "getting_spare_card"}
+{"text": "Where is a Mastercard ATM?", "intent": "atm_support"}
+{"text": "How do I see the source of my money?", "intent": "verify_source_of_funds"}
+{"text": "My cash withdrawal isnt showing on my account", "intent": "pending_cash_withdrawal"}
+{"text": "My passcode was denied.", "intent": "passcode_forgotten"}
+{"text": "Can I add a card back to the app?", "intent": "card_linking"}
+{"text": "The app has rejected my top up.", "intent": "top_up_failed"}
+{"text": "How many different currencies can I hold money in?", "intent": "fiat_currency_support"}
+{"text": "I need to activate my card.", "intent": "activate_my_card"}
+{"text": "Somebody is taking money out of my account without my approval in another town separate from me. Please place a freeze on my account until I can make it to the bank.", "intent": "cash_withdrawal_not_recognised"}
+{"text": "what are the locations i can withdraw money", "intent": "atm_support"}
+{"text": "It can take between 10 minutes to an hour before you hear back from us about the verification result.  Please try again if your verification fails.  Make sure you double check that images are clear and all document photos are readable without blur or glare. You have to be 18 or older and live in the European Economic area or live in Switzerland to be able to open an account.", "intent": "unable_to_verify_identity"}
+{"text": "Why can't I use my card?", "intent": "card_not_working"}
+{"text": "I am still waiting for a the cash I deposited this morning", "intent": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"text": "I tried to buy something and it was declined and my transfers keep getting declined, Why?", "intent": "declined_transfer"}
+{"text": "i need to know about exchange rates", "intent": "exchange_rate"}
+{"text": "Transfer declined.", "intent": "declined_transfer"}
+{"text": "What steps can I take if someone else is using my card?", "intent": "compromised_card"}
+{"text": "want to know how to get virtual card", "intent": "getting_virtual_card"}
+{"text": "I can't find my card! Can you help?", "intent": "lost_or_stolen_card"}
+{"text": "Do you do business in the EU?", "intent": "country_support"}
+{"text": "I can't get the virtual card to work", "intent": "virtual_card_not_working"}
+{"text": "The passcode isn't working for me.", "intent": "passcode_forgotten"}
+{"text": "My new card has not been delivered to my home yet. What is going on?", "intent": "card_arrival"}
+{"text": "How do I go about getting an actual card?", "intent": "order_physical_card"}
+{"text": "I made a purchase this morning, and it is showing as pending.", "intent": "pending_card_payment"}
+{"text": "I'm still waiting for the top-up!", "intent": "pending_top_up"}
+{"text": "Can I use this app to exchange between dollars and pounds?", "intent": "exchange_via_app"}
+{"text": "I want to use my account before identity verification", "intent": "why_verify_identity"}
+{"text": "Why is my card being declined at the ATM? I have tried multiple ATMs and i keep running into the same problem. Could you verify that everything is okay with my account?", "intent": "declined_cash_withdrawal"}
+{"text": "How can I obtain a disposable virtual card?", "intent": "get_disposable_virtual_card"}
+{"text": "How do I delete an account?", "intent": "terminate_account"}
+{"text": "After I got my cash, I found out my exchange rate was wrong.", "intent": "wrong_exchange_rate_for_cash_withdrawal"}
+{"text": "Why, when paying with the card, was I charged an extra fee?", "intent": "card_payment_fee_charged"}
+{"text": "If I can, I would like to get both Mastercard and Visa from you.", "intent": "visa_or_mastercard"}
+{"text": "There must have been a mistake, why was I charged an extra pound?", "intent": "extra_charge_on_statement"}
+{"text": "Are there any places that I can't use the disposable cards at?", "intent": "disposable_card_limits"}
+{"text": "I need to order a new card as my other one was stolen.", "intent": "lost_or_stolen_card"}
+{"text": "I need some help, I thought you guys accepted crypto top ups?? It won't seem to let me do it. I put money in my account and now it's gone and I didn't spend it. Where did it go??", "intent": "top_up_reverted"}
+{"text": "I'm suddenly getting an error while attempting a transfer that it isn't possible. Why? I've done it before.", "intent": "beneficiary_not_allowed"}
+{"text": "Is my transfer pending?", "intent": "pending_transfer"}
+{"text": "Will it be possible to change from USD to GBP with this App?", "intent": "exchange_via_app"}
+{"text": "Hello, I am a new customer, and just tried topping up for the first time. According to your information, the transaction should be instant - why does it still show as pending?", "intent": "pending_top_up"}
+{"text": "Why does top-up require verification?", "intent": "verify_top_up"}
+{"text": "It shows that the transfer on my account wasn't allowed.", "intent": "beneficiary_not_allowed"}
+{"text": "Is it simple to transfer money using my credit card?", "intent": "topping_up_by_card"}
+{"text": "I'm in China and need a new card. Please help.", "intent": "card_about_to_expire"}
+{"text": "Are there steps I need to take before my card expires?", "intent": "card_about_to_expire"}
+{"text": "Why is my friend not getting a transaction arrival yet?", "intent": "transfer_not_received_by_recipient"}
+{"text": "Dude I put money in the ATM last week but it ain't there! I need the money now figure this out!", "intent": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"text": "What are the disposable virtual card limits?", "intent": "disposable_card_limits"}
+{"text": "Where is the PIN for my card located?", "intent": "get_physical_card"}
+{"text": "Why is my card payment still listed as pending?", "intent": "pending_card_payment"}
+{"text": "I just got my card.  It's not linked yet--how do I do that?", "intent": "card_linking"}
+{"text": "Do you have any accounts for children ?", "intent": "age_limit"}
+{"text": "Can my account be topped-up by friends of mine.", "intent": "topping_up_by_card"}
+{"text": "Where can I order my virtual card?", "intent": "getting_virtual_card"}
+{"text": "I am still waiting for a refund", "intent": "Refund_not_showing_up"}
+{"text": "When can I expect a transfer from Europe to go through?", "intent": "transfer_timing"}
+{"text": "What do I need in regards to identification?", "intent": "verify_my_identity"}
+{"text": "I didn't realize that there were any fees for withdrawing money from my account--this has never happened to me before.  What exactly are the fees?", "intent": "cash_withdrawal_charge"}
+{"text": "Hi there, earlier today I tried to take money out of an ATM machine, and something wasn't working.  I didn't actually receive the money, but I just checked and it says that the transaction is still pending.  Can you tell me what's going on here? Am I still being charged for the withdrawal even though I didn't end up getting any money?", "intent": "pending_cash_withdrawal"}
+{"text": "What should I do since my card is trapped in the ATM?", "intent": "card_swallowed"}
+{"text": "You operate in which countries?", "intent": "country_support"}
+{"text": "It kept my cash", "intent": "wrong_amount_of_cash_received"}
+{"text": "I need to get a disposable virtual card?", "intent": "get_disposable_virtual_card"}
+{"text": "I need to get my card quickly", "intent": "card_delivery_estimate"}
+{"text": "Why was there an extra charge when I transferred money?", "intent": "transfer_fee_charged"}
+{"text": "Do I need to go to a physical bank to change my PIN?", "intent": "change_pin"}
+{"text": "I have a service fee that I've never seen before. It showed up after I bought something from an international seller online.", "intent": "transfer_fee_charged"}
+{"text": "How do you do currency exchanges?", "intent": "exchange_rate"}

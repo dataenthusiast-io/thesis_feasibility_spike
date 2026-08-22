@@ -1,0 +1,26 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "You are an airline customer service representative. Classify the user's utterance into exactly one intent: book (wants to book a new flight), cancel (wants to cancel an existing reservation), or change (wants to change an existing reservation). Include the persona and relevant details in your classification.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "one customer utterance"
+      },
+      {
+        "prefix": "Intent:",
+        "description": "${intent}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

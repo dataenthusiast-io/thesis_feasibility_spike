@@ -1,0 +1,45 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "Heello. I am Gregory Moore. an you aid me to cancell my recent",
+      "intent": "cancel"
+    },
+    {
+      "augmented": true,
+      "text": "helol i am angela taylor owing to an emergency i would likke to cancel my recent reservatio can you pl",
+      "intent": "cancel"
+    },
+    {
+      "text": "hi i am matthew hernandez i need two attend workshop in smithsonian institution ta washington dc dcaa can yoj help t",
+      "intent": "book"
+    },
+    {
+      "text": "helloo i am matthea lee u hae planned for the trip too houton ca you please check the frgh",
+      "intent": "book"
+    }
+  ],
+  "signature": {
+    "instructions": "You are an assistant that needs to understand customer requests. Given a text input from an airline customer, classify their intent into one of the following: book (wants to book a new flight), cancel (wants to cancel an existing reservation), or change (wants to change an existing reservation). Classify the intent based on the persona of the customer provided in each example. Use the examples provided to understand how different inputs are categorized.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "one customer utterance"
+      },
+      {
+        "prefix": "Intent:",
+        "description": "${intent}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "n1",
+    "n": 300,
+    "macro_f1": 0.99,
+    "validity_first_try": 1.0,
+    "validity_after_retry": 1.0,
+    "lm_calls": 300,
+    "wallclock_s": 53.0,
+    "s_per_100": 17.7
+  },
+  {
+    "condition": "n2",
+    "n": 300,
+    "macro_f1": 0.965,
+    "validity_first_try": 0.9967,
+    "validity_after_retry": 0.9967,
+    "lm_calls": 301,
+    "wallclock_s": 55.0,
+    "s_per_100": 18.3
+  },
+  {
+    "condition": "n3",
+    "n": 300,
+    "macro_f1": 0.8991,
+    "validity_first_try": 0.9667,
+    "validity_after_retry": 0.9667,
+    "lm_calls": 310,
+    "wallclock_s": 57.6,
+    "s_per_100": 19.2
+  }
+]

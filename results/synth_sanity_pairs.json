@@ -1,0 +1,158 @@
+{
+  "test_synth.jsonl": [
+    {
+      "intent": "cancel",
+      "clean": "Hello. Jonathan Adams here. I need to cancel my recent reservation due to snowfall, can you please  guide me?",
+      "synthetic": "hey jonathan - just got back from checking the weather and it's pretty bad out there... was wondering if i could change or even cancel my booking since it's not exactly ideal driving conditions right now?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hi. I want to change my existing reservation which is done recently, can you please help me in this?",
+      "synthetic": "i just booked a room with you guys yesterday and i need to make some changes to it - can you tell me what's the best way to go about that?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello, I am Janet Turner. I need to change my existing flight reservation.Can you please help me.",
+      "synthetic": "hi janet - i'm trying to modify a flight i already booked and i'm having some trouble figuring out how to do it online. can we take a look at what's going on?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hi. I need to change my reservation as my plan to go for trekking got postponed. Can you help me?",
+      "synthetic": "hey, i was supposed to go on a hike this weekend but it's been cancelled and now i'm free - can i modify the dates of my booking with you?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello, I am Emily Lee. I made a reservation earlier this week to give a seminar, but my seminar has been postponed. Could you please help me with changing my reservation?",
+      "synthetic": "hey, it's emily lee here - i had booked a spot for a seminar last week, but things have changed and it's not happening as planned. can we reschedule the booking or something?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. Due to health issues, I want to change my existing reservation. Can you please help me?",
+      "synthetic": "hey, i'm having some health problems and i need to make a change to my upcoming booking - can we figure something out?"
+    },
+    {
+      "intent": "book",
+      "clean": "Hello. I'm Jessica Miller. I need to attend a business meeting in Denver.Can you book a ticket from PHX to DEN?",
+      "synthetic": "hey, i've got a meeting coming up in denver and i need to get there ASAP - can you help me find a flight from phoenix?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hi. I am unable to change my existing reservation, can you please help to modify my reservation?",
+      "synthetic": "i made a booking but i need to switch some dates - is there any way to adjust it without having to cancel and rebook everything?"
+    },
+    {
+      "intent": "change",
+      "clean": "Hello. I would like to change my reservation which is under my name. Can you please help me with that?",
+      "synthetic": "hey, i made a booking and now i need to switch some stuff around - can you look into changing it for me?"
+    },
+    {
+      "intent": "cancel",
+      "clean": "Hello. I want to cancel my recent reservation due to health issues, can you please help me with that?",
+      "synthetic": "hey, i'm having some health problems and won't be able to make it to my upcoming booking - is there a way to get out of it?"
+    }
+  ],
+  "b77_test_synth.jsonl": [
+    {
+      "intent": "transfer_not_received_by_recipient",
+      "clean": "Where is the transaction I made to a friend?",
+      "synthetic": "i just checked my account and i don't see the money that was supposed to transfer to my friend's account - can you help me figure out what's going on with it?"
+    },
+    {
+      "intent": "card_arrival",
+      "clean": "I did not get my card yet, is it lost?",
+      "synthetic": "i ordered my card like 2 weeks ago and i haven't received it yet - do you guys have any idea what's going on with that?"
+    },
+    {
+      "intent": "transaction_charged_twice",
+      "clean": "I see that I have been charged multiple times for the same transaction.",
+      "synthetic": "i just checked my account and i noticed that i got hit with a bunch of duplicate charges from your company - is there something going on with my payment info or did you guys make a mistake?"
+    },
+    {
+      "intent": "lost_or_stolen_phone",
+      "clean": "Can I still use the app if I switched phones?",
+      "synthetic": "i just got a new phone and i'm trying to figure out if my account will still work on it - do i need to do anything or is everything good to go?"
+    },
+    {
+      "intent": "balance_not_updated_after_bank_transfer",
+      "clean": "The  money I transferred does not show in the balance.",
+      "synthetic": "i just checked my account and i don't see the funds from that transfer i made earlier - can you help me figure out what's going on?"
+    },
+    {
+      "intent": "card_about_to_expire",
+      "clean": "I need a new card since my old one is about to expire.",
+      "synthetic": "my current card is set to expire soon and i was wondering if there's an easy way to get a replacement?"
+    },
+    {
+      "intent": "virtual_card_not_working",
+      "clean": "Is there a trick to get the disposable virtual card to work?",
+      "synthetic": "i'm having trouble getting my disposable virtual card to process payments - it keeps getting declined. is there something i need to do differently or is there a specific setting i should check?"
+    },
+    {
+      "intent": "balance_not_updated_after_bank_transfer",
+      "clean": "Why is my balance the same?  I processed a transfer.",
+      "synthetic": "i just tried to check my account and it looks like the money i sent hasn't shown up yet - did something go wrong with the transfer or is there a delay or something?"
+    },
+    {
+      "intent": "verify_source_of_funds",
+      "clean": "I would like to see the source of my money.",
+      "synthetic": "i just transferred some cash into my account and i'm trying to figure out where it's coming from - can you show me a breakdown of all the transactions that have been made recently?"
+    },
+    {
+      "intent": "verify_my_identity",
+      "clean": "What are the steps to verify my identity?",
+      "synthetic": "i'm trying to log in but it keeps saying i need to verify my account - can you walk me through what i need to do next?"
+    }
+  ],
+  "b77_dev_synth.jsonl": [
+    {
+      "intent": "card_payment_wrong_exchange_rate",
+      "clean": "I was using a foreign currecy to make a payment and the applied the wrong rate.",
+      "synthetic": "i made a payment with a different currency and i think you guys used the wrong exchange rate - can you check on your end?"
+    },
+    {
+      "intent": "order_physical_card",
+      "clean": "tell me how I can order my card.",
+      "synthetic": "i'm trying to reorder my credit card - i think it's expired and i need a new one sent out ASAP. can you help with that?"
+    },
+    {
+      "intent": "top_up_limits",
+      "clean": "How much am I allowed to top-up?",
+      "synthetic": "i'm trying to add some extra funds to my account but i'm not sure if there's a limit on how much i can put in at once - can you let me know what the max is?"
+    },
+    {
+      "intent": "transfer_timing",
+      "clean": "How long does a transfer from the US take?",
+      "synthetic": "i'm trying to send some money to my friend in europe and i was wondering how long it takes for the funds to actually arrive - is there a specific timeframe i should be expecting or is it more of a wait-and-see situation?"
+    },
+    {
+      "intent": "getting_spare_card",
+      "clean": "How many active cards can I have?",
+      "synthetic": "i'm trying to figure out how many cards i can have at any given time - is there a limit on that or do you guys track it somehow?"
+    },
+    {
+      "intent": "transaction_charged_twice",
+      "clean": "Hello, I was just went through my recent transaction on my bank account and I just noticed that I was charged twice at a place that ate at this past week. Can I get that second transaction removed from my account?",
+      "synthetic": "i'm looking at my bank statement and i see that i got charged twice for the same thing at a restaurant i went to last week - can you help me figure out what's going on with that extra charge?"
+    },
+    {
+      "intent": "receiving_money",
+      "clean": "Can this app take my salary?",
+      "synthetic": "i'm trying to link my bank account to pay for the subscription but it keeps saying there's an issue with my income - can i use my salary as a payment method or is that not allowed?"
+    },
+    {
+      "intent": "getting_virtual_card",
+      "clean": "Where can I order my virtual card?",
+      "synthetic": "i'm trying to figure out how to get my virtual card - i don't see an option to buy it on your website. can you point me in the right direction?"
+    },
+    {
+      "intent": "age_limit",
+      "clean": "Can my children open an account?",
+      "synthetic": "i'm trying to set up a new account for my kids and i was wondering if they're eligible to have their own accounts or if there's a minimum age requirement or something?"
+    },
+    {
+      "intent": "change_pin",
+      "clean": "Do I need to go to a physical bank to change my PIN?",
+      "synthetic": "i tried to change my pin online but it's saying i need to verify my identity in person - is there any way to do that without going into a branch?"
+    }
+  ]
+}
