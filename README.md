@@ -16,7 +16,7 @@ Feasibility spikes for the master thesis *Self-Improving Language Model Pipeline
 | 2 | Measurable DSPy/MIPROv2 lift | Yes (+2.7 F1 pts held-out; +0.0 with naive optimizer config) |
 | 2 | LLM-synthetic form shift as drift instrument | Yes (-11 to -20 pts, realistic; label-drift caveat) |
 | 2 | Recovery under form shift | First positive delta (+1.0 pts, single seed) |
-| 3 (instrument probe) | GEPA vs MIPROv2 at matched 700-call budget | GEPA wins both critical cells (+4.8 clean lift, +2.1 recovery); ordering vs manual prompt unchanged |
+| 3 (instrument probe) | GEPA vs MIPROv2 at matched 700-call budget | GEPA wins the clean lift (+4.8 vs +2.7) and reproduces the brittleness pattern (measured); within-optimizer recovery +0.2 (MIPROv2: +1.0), both inside noise |
 
 Decisions taken on this basis: the thesis corpus is switched to Banking77, LLM-synthetic form shift is the primary drift instrument (with a label-validation protocol), and optimizer configuration (proposer model, demo policy) is an explicit experimental variable.
 

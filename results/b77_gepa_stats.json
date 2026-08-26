@@ -4,5 +4,6 @@
   "gepa_clean_opt_wallclock_s": 485.3,
   "gepa_recovery_macro_f1": 0.3504,
   "gepa_recovery_opt_calls": 850,
-  "gepa_recovery_opt_wallclock_s": 476.1
+  "gepa_recovery_opt_wallclock_s": 476.1,
+  "gepa_frozen_clean_on_synth_macro_f1": 0.348
 }
