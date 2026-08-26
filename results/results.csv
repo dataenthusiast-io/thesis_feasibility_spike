@@ -24,3 +24,5 @@ b77_manual,synth_3b,0.3696,0.9448,325,70.3
 b77_recover,frozen_opt_on_synth,0.3292,0.9838,314,152.1
 b77_recover,reoptimization,,,665,367.6
 b77_recover,reoptimized_on_synth,0.3390,0.9838,313,146.6
+b77_gepa,optimized_clean,0.5514,0.9805,861,485.3
+b77_gepa,reoptimized_on_synth,0.3504,0.9903,850,476.1

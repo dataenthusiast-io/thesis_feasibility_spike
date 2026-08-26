@@ -2,7 +2,7 @@
 
 Feasibility spikes for the master thesis *Self-Improving Language Model Pipelines for Conversational Intent Classification under Distribution Shift* (FOM). Two spike runs, executed 2026-08-21, validate the technical assumptions of the planned factorial experiment before the literature phase and Expose.
 
-**Start here: [results/SPIKE_REPORT_CENTRAL.md](results/SPIKE_REPORT_CENTRAL.md)** contains the consolidated verdicts, all metrics, the decision history, and the resulting design decisions.
+**Start here: [results/SPIKE_REPORT_CENTRAL.md](results/SPIKE_REPORT_CENTRAL.md)** contains the consolidated verdicts, all metrics, the decision history, the resulting design decisions, and the logged assumptions still requiring verification.
 
 ## What was tested
 
@@ -16,6 +16,7 @@ Feasibility spikes for the master thesis *Self-Improving Language Model Pipeline
 | 2 | Measurable DSPy/MIPROv2 lift | Yes (+2.7 F1 pts held-out; +0.0 with naive optimizer config) |
 | 2 | LLM-synthetic form shift as drift instrument | Yes (-11 to -20 pts, realistic; label-drift caveat) |
 | 2 | Recovery under form shift | First positive delta (+1.0 pts, single seed) |
+| 3 (instrument probe) | GEPA vs MIPROv2 at matched 700-call budget | GEPA wins both critical cells (+4.8 clean lift, +2.1 recovery); ordering vs manual prompt unchanged |
 
 Decisions taken on this basis: the thesis corpus is switched to Banking77, LLM-synthetic form shift is the primary drift instrument (with a label-validation protocol), and optimizer configuration (proposer model, demo policy) is an explicit experimental variable.
 
@@ -40,6 +41,7 @@ src/
   b77_classify.py            run 2: manual-prompt classifier (77 labels)
   b77_optimize.py            run 2: MIPROv2 incl. E1 config (--prompt-model, --zero-shot)
   b77_recover.py             run 2: synthetic-shift eval + re-optimization
+  b77_gepa.py                instrument probe: GEPA on the two critical cells, budget-matched
   synth_perturb.py           run 2: LLM-synthetic form-shift generation
 data/
   dev.jsonl, test.jsonl      AirDialogue slices (150 / 300, seed 42)

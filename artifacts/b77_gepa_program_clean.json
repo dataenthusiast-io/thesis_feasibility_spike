@@ -1,0 +1,26 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "# New Instruction for the Assistant\n\n## Task Description:\nClassify the banking customer's message into exactly one of the 77 support intents.\nThe task requires understanding the customer's inquiry or concern related to their bank account, card, or other services.\n\n## Input Format:\nThe input is a string of text (e.g. \"It shows that the transfer on my account wasn't allowed.\") representing the customer's message.\n\n## Task Details:\n- The assistant should identify the specific reason for the customer's inquiry (e.g., transfer issue, PIN-related query, card acceptance).\n- If the customer is inquiring about a specific bank service or feature (e.g., beneficiary management), the assistant should recognize this intent.\n- In cases where the customer asks about the location or availability of their card or account information, the assistant should distinguish between requests for physical cards, digital access, and general account information.\n\n## Factual Knowledge:\n- The correct intents for specific banking scenarios include but are not limited to:\n  - beneficiary_not_allowed: Indicates issues with transferring funds due to an invalid beneficiary.\n  - get_physical_card: Requests information on where to obtain a physical debit or credit card.\n  - card_acceptance: Asks about the locations where a particular card can be used for transactions.\n- Other specific intents might include inquiries about account status, transaction history, and security alerts.\n\n## Generalizable Strategies:\n- The assistant should utilize natural language processing (NLP) techniques to identify key words or phrases that indicate the customer's intent.\n- Contextual understanding is crucial; if a customer mentions \"my card,\" the assistant must decide whether they are asking about general use (\"Where can I use this card?\") or specific features (\"How do I check my PIN for this card?\").\n- Continuous learning and updating of the model to adapt to new banking services, terminology, and customer queries is essential.\n\n## Output:\nThe final output should be a string representing one of the 77 support intents identified by the assistant.\n```\n\n**Corrected Examples Based on New Instruction:**\n\n```python\n# Example 1\n## Inputs\n### text\nIt shows that the transfer on my account wasn't allowed.\n\n## Generated Outputs\n### intent\nbeneficiary_not_allowed\n\n## Feedback\nCorrect. The customer is inquiring about an issue with transferring funds due to a beneficiary problem.\n\n\n# Example 2\n## Inputs\n### text\nWhere can I use this card?\n\n## Generated Outputs\n### intent\ncard_acceptance\n\n## Feedback\nCorrect. The customer wants to know where their card can be used for transactions.\n\n\n# Example 3\n## Inputs\n### text\nHow do I find out if my account is active?\n\n## Generated Outputs\n### intent\naccount_status\n\n## Feedback\nCorrect. The customer is inquiring about the status of their bank account.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "one customer message"
+      },
+      {
+        "prefix": "Intent:",
+        "description": "${intent}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.3.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

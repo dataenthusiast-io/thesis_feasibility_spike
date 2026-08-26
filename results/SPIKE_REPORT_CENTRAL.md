@@ -7,6 +7,26 @@
 
 ---
 
+## In brief (plain-language interpretation)
+
+Three questions drove the spike; each has a short answer before the numbers.
+
+**Does the machinery work?** Yes. A 3B local model classifies reliably with valid structured output, and DSPy/MIPROv2 optimizes end to end on consumer hardware in minutes. No technical blockers anywhere.
+
+**Is there anything left to optimize?** Not on AirDialogue: every model tier scores near perfect on clean data, so neither optimization gains nor model-size differences are measurable there. On Banking77 (77 fine-grained intents) the same models score 0.52 (3B) and 0.27 (1B): real headroom, real scale differences. This settled the corpus decision.
+
+**Does self-optimization work?** In two parts. *On clean data:* yes, demonstrated. The optimizer found a prompt that beats the hand-written one by 2.7 F1 points on held-out data (though only after configuration fixes; the out-of-the-box run gained exactly zero). *Under drift:* the central story of the spike, told by one table. Realistic drift was simulated by rewriting every test message into casual, indirect chat language; then all three prompt regimes were scored on it:
+
+| Prompt | clean data | drifted data |
+|---|---|---|
+| hand-written, frozen | 0.518 | 0.370 |
+| optimized on clean data, frozen | **0.531** (best) | **0.329** (worst) |
+| re-optimized on drifted data (the loop) | n/a | 0.339 |
+
+Read across the rows: the optimized prompt wins on clean data but falls hardest under drift, ending *below* the hand-written prompt it had beaten. Optimizing on one distribution creates brittleness against the next one, which is precisely the production problem the thesis loop targets. The loop was then retested on the drifted data: re-optimization recovered ground for the first time (+1.0 pt vs the frozen prompt), but the gain is within optimizer noise and still trails the hand-written prompt. **Conclusion: the spike proves all preconditions of the thesis (headroom, realistic drift, demonstrated brittleness, a recovery mechanism pointing the right way); whether the loop delivers significant recovery under proper budgets and repeated seeds is exactly the open question the thesis answers.**
+
+---
+
 ## 1 Executive summary
 
 The spike validates the thesis machinery end to end and settles two design questions with metrics.
@@ -22,7 +42,7 @@ The spike validates the thesis machinery end to end and settles two design quest
 | D3 | Is DSPy lift measurable? (title-critical) | **YES, on Banking77** | +2.7 F1 pts held-out at minimal budget; +0.0 with naive configuration |
 | D4 | Is LLM-synthetic shift a viable drift instrument? | **YES, with protocol** | -11 pts (AirDialogue), -15 to -20 pts (Banking77); label-drift caveat |
 
-**Decisions taken on this basis:** the thesis corpus is switched to Banking77; LLM-synthetic form shift is adopted as the primary drift instrument, subject to a label-validation protocol; optimizer configuration (proposer model, demo policy) is treated as an explicit experimental variable. Section 2 documents how these decisions emerged; sections 4 and 5 hold the per-run evidence; section 6 states the resulting design decisions in full.
+**Decisions taken on this basis:** the thesis corpus is switched to Banking77; LLM-synthetic form shift is adopted as the primary drift instrument, subject to a label-validation protocol; optimizer configuration (proposer model, demo policy) is treated as an explicit experimental variable. Section 2 documents how these decisions emerged; sections 4 and 5 hold the per-run evidence; section 6 states the resulting design decisions in full; section 7 logs the assumptions that still require verification.
 
 ### 1.1 The decision grid
 
@@ -63,6 +83,10 @@ The spike was planned as a single run against four assumptions. Seven decision p
 **Iteration 6: zero-lift diagnosis and optimizer reconfiguration (E1).** The first MIPROv2 run on Banking77 returned a lift of exactly +0.000: the optimizer explored instruction and demo candidates, all scored below the unmodified baseline on dev (44 to 48 vs 54), and correctly returned the baseline. Diagnosis: (a) few-shot demos structurally cannot cover 77 classes and bias the model toward the demoed classes; (b) by default the 3B task model proposes its own instruction candidates, and proposes poorly. Reconfiguration (E1): llama3.1:8b as dedicated `prompt_model`, instruction-only search (no demos). Result: +2.7 pts on held-out test at the smallest budget. Effect: rescued the title-critical claim and promoted optimizer configuration from plumbing to an explicit experimental variable.
 
 **Iteration 7: generation guard bug and label-drift discovery.** The first synthetic generation silently kept 30% of originals because an over-strict output-length guard rejected legitimate rewrites (a colloquial, indirect rewrite of a five-word banking query is naturally several times longer). Fixed and fully regenerated (0 fallbacks). The sanity pairs of the regenerated sets then surfaced genuine label drift in a minority of rewrites (a cancel rewritten as "change or even cancel"; a top-up question turned into a missing-transfer complaint). Effect: clean shifted sets, plus the requirement, now part of the design, that synthetic shift carries a label-validation protocol and generator/classifier family separation.
+
+**Iteration 8: inversion proposal and goal reframing.** After the corpus decision, an inversion of the ceiling problem was considered: keep AirDialogue and redefine the goal as *retaining* near-ceiling quality under degrading data rather than improving further. Assessment against the measured cells: the retention idea strengthens the thesis narrative (production systems are judged on not degrading, matching H3 and the supervisor's original two-step design), but it does not rescue AirDialogue, because the prompt-regime factor collapses there (MIPRO found nothing on clean data, so manual-static and optimized-static are the same artifact), H2 loses all variance, and the design would rest solely on recovery deltas that have so far been within optimizer noise. Decision: the retention framing is adopted as the primary formulation of the experimental goal (quality retention relative to a clean anchor), applied on Banking77; the corpus decision stands. One decisive cell for the inversion (re-optimization on synthetically shifted AirDialogue) remains unmeasured and is logged in section 7.
+
+**Iteration 9: optimizer instrument probe (GEPA, 2026-08-26).** After the proposal fixed MIPROv2 as optimizer of record while citing GEPA (ICLR 2026) as outperforming it, the instrument choice was grounded empirically: GEPA was run on the two title-critical Banking77 cells under maximum comparability (same task model, same data and seed, the same llama3.1:8b in the reflection role that MIPROv2 E1 used as proposer, and the budget capped at 700 task-model calls to match E1's 685; the thesis's Phi-4 proposer allocation applies to future runs only and is deliberately not used here). Results: clean lift 0.5514 (GEPA) vs 0.5307 (MIPROv2) vs 0.5035 (baseline); recovery on shifted test 0.3504 (GEPA) vs 0.3390 (MIPROv2) vs 0.3292 (frozen), manual prompt 0.3696. Reading: GEPA outperforms MIPROv2 on both cells at matched budget (single seed each), yet the qualitative ordering is unchanged: recovery under both optimizers remains below the manual prompt at small budgets. The brittleness and partial-recovery pattern is therefore not optimizer-specific, which strengthens the H2/H3 evidence base and pre-answers the instrument objection. Decision: MIPROv2 remains optimizer of record (reference-method rationale unchanged); the Step 8 GEPA robustness check is upgraded from optional to planned for the H3-critical cells; the record-vs-robustness allocation is revisited only if the thesis pilot reproduces a GEPA advantage beyond seed variance.
 
 **Net effect of the iterations:** Run 1 alone would have concluded "machinery works, but no headroom, unrealistic shift, no recovery." The iterations converted that into: a validated instrument (synthetic form shift), a validated arena (Banking77), a measurable title claim (+2.7 pts APO lift), an observed brittleness effect motivating H3, and a positive recovery signal, with every negative intermediate result retained as evidence.
 
@@ -161,7 +185,18 @@ Notable: synthetic shift degrades AirDialogue *more* than maximal character corr
 
 **Label-preservation caveat:** synthetic rewriting puts an LLM inside the measurement instrument. Observed failure modes: a cancel rewritten as "change or even cancel" (label blur), a top-up question rewritten as a missing-transfer complaint (label flip). Measured degradation therefore conflates model failure with label drift. Required protocol for the thesis: generator/classifier family separation (practiced here) plus label validation on a sample (human spot-check or independent judge). Parametric corruption preserves labels by construction and can remain a controlled secondary severity axis.
 
-### 5.4 Recovery under form shift (A4 revisited)
+### 5.4 Optimizer instrument probe: GEPA vs MIPROv2 at matched budget (added 2026-08-26)
+
+Both title-critical cells rerun with GEPA under maximum comparability (details and decision in Iteration 9):
+
+| Cell | DSPy baseline | MIPROv2 E1 | GEPA (700-call cap) | manual prompt |
+|---|---|---|---|---|
+| clean dev to clean test | 0.5035 | 0.5307 | **0.5514** | 0.5175 |
+| shifted dev to shifted test | frozen: 0.3292 | 0.3390 | **0.3504** | 0.3696 |
+
+GEPA wins both cells at matched budget (single seed); the ordering versus the manual prompt under shift is unchanged for both optimizers. Artifacts: `artifacts/b77_gepa_program_clean.json`, `artifacts/b77_gepa_program_synth.json`; logs: `runs/b77_gepa_*_history.jsonl`; stats: `results/b77_gepa_stats.json`.
+
+### 5.5 Recovery under form shift (A4 revisited)
 
 Re-running MIPRO (E1 configuration) on the synthetically shifted dev set, evaluated on the shifted test set: frozen 0.3292 to re-optimized 0.3390, **recovery +0.98 pts** (665 calls, 368 s). First positive delta (contrast -0.98 under corruption), directionally supporting the adaptive regime, but single-seed and within optimizer noise; the re-optimized program still trails the manual prompt under shift (0.339 vs 0.370). Claiming H3 requires larger optimization budgets, repeated seeds, and larger test sets.
 
@@ -176,8 +211,31 @@ Re-running MIPRO (E1 configuration) on the synthetically shifted dev set, evalua
 5. **Statistical power:** test sets of 1000+ examples per cell and 3 to 5 optimizer seeds per condition (local calls are free). Deltas of ±1 pt at n≈300 are inside noise; spike-observed optimizer variance was about ±1 pt.
 6. **Data pipeline:** utterance derivation includes an intent-bearing-content criterion (Run 1 lost 12 validity points to a naive slicing rule); the classification unit (single utterance vs full dialogue) trades redundancy against shift sensitivity and is fixed deliberately per corpus (short units maximize experimental signal and match early-intent-detection practice).
 7. **Tooling constraints (resolved, to be documented in the Exposé):** DSPy requires Python 3.13 or lower; MIPROv2 needs the optional optuna dependency; Literal-typed outputs surface off-label answers as parse errors and the metric handles them.
+8. **Goal framing: quality retention under drift is the primary objective formulation.** The experiment is framed as maintaining a clean-data quality anchor while input quality degrades, rather than maximizing absolute scores; hypotheses on optimization lift and scale substitution operate within that frame (Iteration 8).
 
-## 7 Cost and reproducibility
+## 7 Logged assumptions requiring verification
+
+The spike results rest on the following assumptions, ordered by potential impact. Items 1, 2 and 4 could qualitatively change a conclusion and must be verified before the design is finalized; the remaining items bound the precision of the reported numbers.
+
+1. **Label preservation of synthetic rewrites is assumed, not established.** Only 10 pairs per set were spot-checked (by the executing model, not a human); known drift cases are documented (a cancel rewritten as "change or even cancel", a top-up question turned into a missing-transfer complaint). Measured degradation therefore conflates model failure with label drift in unknown proportions. *Verification: human review of 30 to 50 random pairs per corpus and an estimated label-drift rate; this doubles as the pilot of the thesis validation protocol. Evidence: `results/synth_sanity_pairs.json`.*
+
+2. **Shift severity is authored, not calibrated.** The rewrite instruction explicitly demands informality and indirection ("describe what happened instead of naming the action"), so the measured drops (-11 to -20 pts) are downstream of that specific wording and were not calibrated against any real drifted corpus. *Verification: review the prompt in `src/synth_perturb.py` and endorse or revise the realism claim; plan a severity ladder (degree of indirection, register) for the thesis.*
+
+3. **The generator violated its own "no new factual details" rule in some rewrites** (invented scenarios such as "i ordered something last week"). The shift is therefore partly topical rather than purely stylistic; topical drift is the primary label-flip mechanism on fine-grained intents and feeds assumption 1.
+
+4. **The recovery test used matched shift distributions.** Dev and test sets were shifted by the identical generator and prompt, so re-optimization adapted to exactly the distribution it was tested on. The +1.0 pt recovery is accordingly a best-case signal. *Verification: the thesis design tests recovery against a held-out shift variant or a second generator.*
+
+5. **Every optimizer delta is a single run at the smallest budget** (MIPROv2: +2.7 clean, +1.0 recovery, -1.0 under corruption; GEPA at matched 700-call budget: +4.8 clean, +2.1 recovery; one seed each); observed run-to-run variance is about ±1 pt. The clean-data lifts are measured on held-out data and are therefore not dev overfitting, but each magnitude is one draw, including the GEPA-over-MIPROv2 gap of about 2 pts. All deltas carry this qualifier until rerun with 3 to 5 seeds and larger budgets.
+
+6. **Generator/proposer coupling in the Run 2 recovery cell:** llama3.1:8b both generated the shifted data and proposed instruction candidates during re-optimization. *Verification: the thesis separates generator, proposer, and task model into three distinct families, or explicitly discusses the coupling.*
+
+7. **Method scope is narrow:** only `dspy.Predict` was tested (no ChainOfThought), and the optimizer maximizes exact-match accuracy on a class-balanced dev set, which approximates but is not identical to the reported macro F1.
+
+8. **One design-relevant cell is unmeasured:** re-optimization on synthetically shifted AirDialogue (the decisive test for the inversion idea of Iteration 8) was not run; the corpus decision rests on the structural arguments (regime collapse, dead H2) plus the measured recovery pattern, not on that cell. *Verification if the inversion is revisited: one MIPRO run on a shifted AirDialogue dev set, roughly 20 minutes with the existing harness.*
+
+9. **Practical bounds:** the AirDialogue synthetic evaluation used a stratified 150-example subsample (not the full 300); the Banking77 dev set holds only 2 examples per class, so MIPRO's internal 100-example validation set covers only part of the label space per trial; determinism is per machine (Ollama seeding), so exact numbers may vary marginally on other hardware.
+
+## 8 Cost and reproducibility
 
 Total across both runs: roughly 10,000 LM calls, about 2 hours wall-clock, all local, zero API cost. Hard caps (2 h or 5,000 calls per stage) were never approached by any single stage. Every stage rerunnable via `python src/<stage>.py`; complete call logs in `runs/`, per-condition metrics in `results/results.csv`, optimized programs in `artifacts/`, sanity-check pairs in `results/s3_sanity_pairs.json` and `results/synth_sanity_pairs.json`.
 
